@@ -1,0 +1,112 @@
+/* Core Styles */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600');
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background: #f8f8f8;
+    color: #0e0e0e;
+    font-size: 1.1em;
+    line-height: 1.5;
+    text-align: center;
+}
+
+header img {
+    width: 100%;
+    margin: 10px auto;
+}
+
+h1, h2, h3 {
+    margin: 0;
+    padding: 1em 0;
+}
+
+p {
+    margin: 0;
+    padding: 1em 0;
+}
+
+header h1 {
+    font-size: 1.6em;
+    text-transform: uppercase;
+    padding-bottom: 0;
+}
+
+header h2 {
+    font-size: 1.14em;
+}
+
+
+section h1, 
+section h2,
+section h3,
+section h4 {
+    text-transform: uppercase;
+    color: #0f4c81;
+}
+
+.time {
+    color: #a5b8d0;
+}
+
+header .content-wrap,
+.section-a .content-wrap {
+    padding: 0 1.5em;
+}
+
+.section-a, .section-c {
+    background: #eaeaea;
+    color: #333;
+    padding-bottom: 2em;
+}
+
+.circular-chart {
+    display: block;
+    margin: 10px auto;
+    max-width: 80%;
+    max-height: 250px;
+  }
+  
+  .circle-bg {
+    fill: none;
+    stroke: #f8f8f8;
+    stroke-width: 3.8;
+  }
+  
+  .circle {
+    fill: none;
+    stroke-width: 2.8;
+    stroke-linecap: round;
+    animation: progress 1s ease-out forwards;
+  }
+
+  .circular-chart.orange .circle {
+    stroke: #c0d725;
+  }
+
+  @keyframes progress {
+    0% {
+      stroke-dasharray: 0 100;
+    }
+  }
+  
+
+  .percentage {
+    fill: #333;
+    font-size: 0.2em;
+    text-anchor: middle;
+  }
+
+  .section-c ul li {
+      list-style: none;
+  }
+
+  .flex-wrapper {
+    display: flex;
+    flex-flow: row nowrap;
+  }
+  
+  .single-chart {
+    width: 33%;
+    justify-content: space-around ;
+  }
